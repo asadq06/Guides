@@ -23,7 +23,7 @@
       "negate": true,
       "required": true,
       "fields": {
-        "value": "\\b(INFLATE|DEFLATE[)\\]]?)$"
+        "value": "(?:\\b|-)(INFLATE|DEFLATE)[-)\\]]*"
       }
     },
     {
