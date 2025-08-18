@@ -24,6 +24,15 @@
       "fields": {
         "value": "^(INFLATE)$"
       }
+    },
+    {
+      "name": "BTN",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(BTN)$"
+      }
     }
   ]
 }
