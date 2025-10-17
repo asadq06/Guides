@@ -33,24 +33,24 @@ We've made 3 guides related to this.
 
 ---
 
-| Audio Formats                         | Audio Channels               | HDR Formats                      | HDR Optional                    |
-| ------------------------------------- | ---------------------------- | -------------------------------- | ------------------------------- |
-| [TrueHD ATMOS](#truehd-atmos)         | [1.0 Mono](#10-mono)         | [HDR](#hdr)                      | [DV (Disk)](#dv-disk)           |
-| [DTS X](#dts-x)                       | [2.0 Stereo](#20-stereo)     | [DV Boost](#dv-boost)            | [DV (WEBDL)](#dv-webdl)         |
-| [ATMOS (undefined)](#atmos-undefined) | [3.0 Sound](#30-sound)       | [HDR10+ Boost](#hdr10plus-boost) | [SDR](#sdr)                     |
-| [DD+ ATMOS](#ddplus-atmos)            | [4.0 Sound](#40-sound)       |                                  | [SDR (no WEBDL)](#sdr-no-webdl) |
-| [TrueHD](#truehd)                     | [5.1 Surround](#51-surround) |                                  |                                 |
-| [DTS-HD MA](#dts-hd-ma)               | [6.1 Surround](#61-surround) |                                  |                                 |
-| [DD+](#ddplus)                        | [7.1 Surround](#71-surround) |                                  |                                 |
-| [DTS-ES](#dts-es)                     |                              |                                  |                                 |
-| [DTS](#dts)                           |                              |                                  |                                 |
-| [FLAC](#flac)                         |                              |                                  |                                 |
-| [PCM](#pcm)                           |                              |                                  |                                 |
-| [DTS-HD HRA](#dts-hd-hra)             |                              |                                  |                                 |
-| [AAC](#aac)                           |                              |                                  |                                 |
-| [DD](#dd)                             |                              |                                  |                                 |
-| [MP3](#mp3)                           |                              |                                  |                                 |
-| [Opus](#opus)                         |                              |                                  |                                 |
+| Audio Formats                         | Audio Channels               | HDR Formats                      | HDR Optional                                 |
+| ------------------------------------- | ---------------------------- | -------------------------------- | -------------------------------------------- |
+| [TrueHD ATMOS](#truehd-atmos)         | [1.0 Mono](#10-mono)         | [HDR](#hdr)                      | [DV (Disk)](#dv-disk)                        |
+| [DTS X](#dts-x)                       | [2.0 Stereo](#20-stereo)     | [DV Boost](#dv-boost)            | [DV (w/o HDR fallback)](#dv-wo-hdr-fallback) |
+| [ATMOS (undefined)](#atmos-undefined) | [3.0 Sound](#30-sound)       | [HDR10+ Boost](#hdr10plus-boost) | [SDR](#sdr)                                  |
+| [DD+ ATMOS](#ddplus-atmos)            | [4.0 Sound](#40-sound)       |                                  | [SDR (no WEBDL)](#sdr-no-webdl)              |
+| [TrueHD](#truehd)                     | [5.1 Surround](#51-surround) |                                  |                                              |
+| [DTS-HD MA](#dts-hd-ma)               | [6.1 Surround](#61-surround) |                                  |                                              |
+| [DD+](#ddplus)                        | [7.1 Surround](#71-surround) |                                  |                                              |
+| [DTS-ES](#dts-es)                     |                              |                                  |                                              |
+| [DTS](#dts)                           |                              |                                  |                                              |
+| [FLAC](#flac)                         |                              |                                  |                                              |
+| [PCM](#pcm)                           |                              |                                  |                                              |
+| [DTS-HD HRA](#dts-hd-hra)             |                              |                                  |                                              |
+| [AAC](#aac)                           |                              |                                  |                                              |
+| [DD](#dd)                             |                              |                                  |                                              |
+| [MP3](#mp3)                           |                              |                                  |                                              |
+| [Opus](#opus)                         |                              |                                  |                                              |
 
 ---
 
@@ -74,11 +74,12 @@ We've made 3 guides related to this.
 | General Streaming Services | Asian Streaming Services | Dutch Streaming Services |
 | -------------------------- | ------------------------ | ------------------------ |
 | [Amazon](#amzn)            | [FOD](#fod)              | [Pathe Thuis](#pathe)    |
-| [Apple TV+](#atvp)         | [Disney+ Hotstar](#htsr) | [Videoland](#vdl)        |
-| [Bravia Core](#bcore)      | [TVer](#tver)            |                          |
-| [Criterion Channel](#crit) | [TVING](#tving)          |                          |
-| [Disney+](#dsnp)           | [U-NEXT](#u-next)        |                          |
-| [HBO](#hbo)                | [VIU](#viu)              |                          |
+| [Apple TV](#atv)           | [Disney+ Hotstar](#htsr) | [Videoland](#vdl)        |
+| [Apple TV+](#atvp)         | [TVer](#tver)            |                          |
+| [Bravia Core](#bcore)      | [TVING](#tving)          |                          |
+| [Criterion Channel](#crit) | [U-NEXT](#u-next)        |                          |
+| [Disney+](#dsnp)           | [VIU](#viu)              |                          |
+| [HBO](#hbo)                |                          |                          |
 | [HBO Max](#hmax)           |                          |                          |
 | [Hulu](#hulu)              |                          |                          |
 | [iTunes](#it)              |                          |                          |
@@ -87,6 +88,7 @@ We've made 3 guides related to this.
 | [Netflix](#nf)             |                          |                          |
 | [Peacock TV](#pcok)        |                          |                          |
 | [Paramount+](#pmtp)        |                          |                          |
+| [ROKU](#roku)              |                          |                          |
 | [Stan](#stan)              |                          |                          |
 
 | UK Streaming Services | Misc Streaming Services | Anime Streaming Services |
@@ -544,7 +546,7 @@ We've made 3 guides related to this.
 
     --8<-- "includes/cf-descriptions/dv-boost.md"
 
-<!-- the reason why we didn't use here `include-markdown` is because all the headers when using `include-markdown` will be looking in `/includes` and not the current markdown file, in this case, the pointer to `#dv-webdl` in `includes/dv.md` -->
+<!-- the reason why we didn't use here `include-markdown` is because all the headers when using `include-markdown` will be looking in `/includes` and not the current markdown file, in this case, the pointer to `#dv-wo-hdr-fallback` in `includes/dv.md` -->
 
 ??? example "JSON - [Click to show/hide]"
 
@@ -592,18 +594,18 @@ We've made 3 guides related to this.
 
 ---
 
-### DV (WEBDL)
+### DV (w/o HDR fallback)
 
 <sub>DV = DoVi = Dolby Vision</sub>
 
 ??? question "Description - [Click to show/hide]"
 
-    {! include-markdown "../../includes/cf-descriptions/dv-webdl.md" !}
+    {! include-markdown "../../includes/cf-descriptions/dv-wo-hdr-fallback.md" !}
 
 ??? example "JSON - [Click to show/hide]"
 
     ```json
-    [[% filter indent(width=4) %]][[% include 'json/radarr/cf/dv-webdl.json' %]][[% endfilter %]]
+    [[% filter indent(width=4) %]][[% include 'json/radarr/cf/dv-wo-hdr-fallback.json' %]][[% endfilter %]]
     ```
 
 <sub><sup>[TOP](#index)</sup></sub>
@@ -1596,6 +1598,24 @@ We've made 3 guides related to this.
 
 ---
 
+#### ATV
+
+<sub>Apple TV</sub>
+
+??? question "Description - [Click to show/hide]"
+
+    {! include-markdown "../../includes/cf-descriptions/atv.md" !}
+
+??? example "JSON - [Click to show/hide]"
+
+    ```json
+    [[% filter indent(width=4) %]][[% include 'json/radarr/cf/atv.json' %]][[% endfilter %]]
+    ```
+
+<sub><sup>[TOP](#index)</sup></sub>
+
+---
+
 #### ATVP
 
 <sub>Apple TV+</sub>
@@ -1824,6 +1844,24 @@ We've made 3 guides related to this.
 
     ```json
     [[% filter indent(width=4) %]][[% include 'json/radarr/cf/pmtp.json' %]][[% endfilter %]]
+    ```
+
+<sub><sup>[TOP](#index)</sup></sub>
+
+---
+
+#### ROKU
+
+<sub>ROKU</sub>
+
+??? question "Description - [Click to show/hide]"
+
+    {! include-markdown "../../includes/cf-descriptions/roku.md" !}
+
+??? example "JSON - [Click to show/hide]"
+
+    ```json
+    [[% filter indent(width=4) %]][[% include 'json/radarr/cf/roku.json' %]][[% endfilter %]]
     ```
 
 <sub><sup>[TOP](#index)</sup></sub>
