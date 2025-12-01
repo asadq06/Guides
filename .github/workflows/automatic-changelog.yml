@@ -14,7 +14,7 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # v5.0.0
+        uses: actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd # v5.0.1
         with:
           fetch-depth: 0
           token: ${{ secrets.PAT }}
@@ -27,7 +27,7 @@ jobs:
 
       - name: Run git log
         run: |
-          git log --no-merges --perl-regexp --author='^(?!.*(\[bot\]|actions@github\.com)).*$' --grep='^(feat|fix|chore|docs|style|refactor|perf|test|build|ci|revert|update)(\(.*?\))?:' --since="${{ env.LAST_EDIT_TIME }}" --pretty="%s" > log_output.txt
+          git log --no-merges --perl-regexp --author='^(?!.*(\[bot\]|actions@github\.com)).*$' --grep='^(feat|fix|chore|docs|style|refactor|perf|test|build|revert|update)(\(.*?\))?:(?! Update CONTRIBUTORS.md)' --since="${{ env.LAST_EDIT_TIME }}" --pretty="%s" > log_output.txt
 
       - name: Check if there are new commits
         run: |

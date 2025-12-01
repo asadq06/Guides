@@ -1,3 +1,34 @@
+# 2025-11-30 00:29
+- [fix(radarr-german): add anchors to german-lq regex](https://github.com/TRaSH-Guides/Guides/pull/2542)
+
+# 2025-11-23 00:30
+- [feat(downloaders): Add update check and notifications for the mover-tuner scripts](https://github.com/TRaSH-Guides/Guides/pull/2547)
+- [fix(radarr): fix image link](https://github.com/TRaSH-Guides/Guides/pull/2543)
+
+# 2025-11-16 00:28
+- [fix(downloaders): updated mover-tuning-start and mover-tuning-end script to v20251112](https://github.com/TRaSH-Guides/Guides/pull/2539)
+- [feat(sonarr-anime): add KHFR to french anime fansub](https://github.com/TRaSH-Guides/Guides/pull/2534)
+- [feat(hardlinks): Added the unRaid All-in-One Script as recommended for fclones](https://github.com/TRaSH-Guides/Guides/pull/2532)
+- [feat(downloaders): Removed qBt theme links recommend qui or vue](https://github.com/TRaSH-Guides/Guides/pull/2533)
+
+# 2025-11-09 00:28
+- [feat(downloaders): How to use the unRaid qBit-Mover with the Mover Tuning plugin](https://github.com/TRaSH-Guides/Guides/pull/2526)
+- [feat(guide): Remove WEBDL exclusion from Dynamic Generate HDR custom format](https://github.com/TRaSH-Guides/Guides/pull/2531)
+
+# 2025-11-02 00:28
+- [feat(starr-anime): Add Cytox to Anime Web Tier 02](https://github.com/TRaSH-Guides/Guides/pull/2527)
+- [chore(contributors): Update CONTRIBUTORS.md](https://github.com/TRaSH-Guides/Guides/pull/)
+
+# 2025-10-26 00:26
+- [fix(radarr-french): incorrect quality group name in CF](https://github.com/TRaSH-Guides/Guides/pull/2523)
+- [chore(contributors): Update CONTRIBUTORS.md](https://github.com/TRaSH-Guides/Guides/pull/)
+
+# 2025-10-19 00:28
+- [feat(guide): Update Tier Descriptions](https://github.com/TRaSH-Guides/Guides/pull/2520)
+- [feat(guide): October 2025 Tier Membership update](https://github.com/TRaSH-Guides/Guides/pull/2521)
+- [docs: Add .internal domain recommendations for Docker container names](https://github.com/TRaSH-Guides/Guides/pull/2514)
+- [chore(contributors): Update CONTRIBUTORS.md](https://github.com/TRaSH-Guides/Guides/pull/)
+
 # 2025-10-12 00:25
 - [fix(sonarr): update webrip and webdl CF references](https://github.com/TRaSH-Guides/Guides/pull/2512)
 - [fix(guide): Updated streaming service scores for Sonarr](https://github.com/TRaSH-Guides/Guides/pull/2513)
