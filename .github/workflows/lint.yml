@@ -8,22 +8,22 @@ jobs:
   editorconfig-checker:
     runs-on: ubuntu-latest
     container:
-      image: mstruebing/editorconfig-checker:v3.6.0@sha256:3fee6fe35c9ec21367b92ca50b3bea856ffc8a7a186044c329ac8bb23b33284a
+      image: mstruebing/editorconfig-checker:v3.6.1@sha256:af556694c3eb0a16b598efbe84c1171d40dfb779fdac6f01b89baedde065556f
       options: --user 0:0
     steps:
       - name: Checkout
-        uses: actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd # v5.0.1
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
       - name: editorconfig-checker
         run: editorconfig-checker .
 
   markdownlint:
     runs-on: ubuntu-latest
     container:
-      image: davidanson/markdownlint-cli2:v0.19.1@sha256:502fcf316d575d1e663005c8d57688e5bda316f3996caa5715aa384fa1d34810
+      image: davidanson/markdownlint-cli2:v0.20.0@sha256:8f7487027e6786a583da1c8be8b0541bbd17582a4b8fbe3e27a29d9f29fa77d0
       options: --user 0:0
     steps:
       - name: Checkout
-        uses: actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd # v5.0.1
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
       - name: markdownlint
         run: markdownlint-cli2 **.{md,markdown}
 
@@ -34,6 +34,6 @@ jobs:
       options: --user 0:0
     steps:
       - name: Checkout
-        uses: actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd # v5.0.1
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
       - name: yamllint
         run: yamllint .

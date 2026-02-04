@@ -79,6 +79,7 @@ Special thanks to everyone who has helped in the creation and testing of these C
 | [Netflix](#nf)             |                           |                          |                          |
 | [Paramount+](#pmtp)        |                           |                          |                          |
 | [Peacock TV](#pcok)        |                           |                          |                          |
+| [Google Play](#play)       |                           |                          |                          |
 | [ROKU](#roku)              |                           |                          |                          |
 | [SHOWTIME](#sho)           |                           |                          |                          |
 | [Stan](#stan)              |                           |                          |                          |
@@ -112,8 +113,8 @@ Special thanks to everyone who has helped in the creation and testing of these C
 | [No-RlsGroup](#no-rlsgroup)         |                                                                    |
 | [Obfuscated](#obfuscated)           |                                                                    |
 | [Repack/Proper](#repackproper)      |                                                                    |
-| [Repack v2](#repack-v2)             |                                                                    |
-| [Repack v3](#repack-v3)             |                                                                    |
+| [Repack2](#repack2)                 |                                                                    |
+| [Repack3](#repack3)                 |                                                                    |
 | [Retags](#retags)                   |                                                                    |
 | [Scene](#scene)                     |                                                                    |
 | [Season Packs](#season-pack)        |                                                                    |
@@ -126,16 +127,16 @@ Special thanks to everyone who has helped in the creation and testing of these C
 
 ---
 
-| Anime Source Groups                                                         | Anime Source Groups                                                   | Anime Misc | Anime Optional                        |
-| --------------------------------------------------------------------------- | --------------------------------------------------------------------- | ---------- | ------------------------------------- |
-| [Anime BD Tier 01 (Top SeaDex Muxers)](#anime-bd-tier-01-top-seadex-muxers) | [Anime Web Tier 01 (Muxers)](#anime-web-tier-01-muxers)               | [v0](#v0)  | [Uncensored](#uncensored)             |
-| [Anime BD Tier 02 (SeaDex Muxers)](#anime-bd-tier-02-seadex-muxers)         | [Anime Web Tier 02 (Top FanSubs)](#anime-web-tier-02-top-fansubs)     | [v1](#v1)  | [10bit](#10bit)                       |
-| [Anime BD Tier 03 (SeaDex Muxers)](#anime-bd-tier-03-seadex-muxers)         | [Anime Web Tier 03 (Official Subs)](#anime-web-tier-03-official-subs) | [v2](#v2)  | [Anime Dual Audio](#anime-dual-audio) |
-| [Anime BD Tier 04 (SeaDex Muxers)](#anime-bd-tier-04-seadex-muxers)         | [Anime Web Tier 04 (Official Subs)](#anime-web-tier-04-official-subs) | [v3](#v3)  | [Dubs Only](#dubs-only)               |
-| [Anime BD Tier 05 (Remuxes)](#anime-bd-tier-05-remuxes)                     | [Anime Web Tier 05 (FanSubs)](#anime-web-tier-05-fansubs)             | [v4](#v4)  |                                       |
-| [Anime BD Tier 06 (FanSubs)](#anime-bd-tier-06-fansubs)                     | [Anime Web Tier 06 (FanSubs)](#anime-web-tier-06-fansubs)             |            |                                       |
-| [Anime BD Tier 07 (P2P/Scene)](#anime-bd-tier-07-p2pscene)                  | [Anime Raws](#anime-raws)                                             |            |                                       |
-| [Anime BD Tier 08 (Mini Encodes)](#anime-bd-tier-08-mini-encodes)           | [Anime LQ Groups](#anime-lq-groups)                                   |            |                                       |
+| Anime Source Groups                    | Anime Source Groups                     | Anime Misc | Anime Optional                        |
+| -------------------------------------- | --------------------------------------- | ---------- | ------------------------------------- |
+| [Anime BD Tier 01](#anime-bd-tier-01)  | [Anime Web Tier 01](#anime-web-tier-01) | [v0](#v0)  | [Uncensored](#uncensored)             |
+| [Anime BD Tier 02](#anime-bd-tier-02)  | [Anime Web Tier 02](#anime-web-tier-02) | [v1](#v1)  | [10bit](#10bit)                       |
+| [Anime BD Tier 03](#anime-bd-tier-03)  | [Anime Web Tier 03](#anime-web-tier-03) | [v2](#v2)  | [Anime Dual Audio](#anime-dual-audio) |
+| [Anime BD Tier 04](#anime-bd-tier-04)  | [Anime Web Tier 04](#anime-web-tier-04) | [v3](#v3)  | [Dubs Only](#dubs-only)               |
+| [Anime BD Tier 05](#anime-bd-tier-05)  | [Anime Web Tier 05](#anime-web-tier-05) | [v4](#v4)  |                                       |
+| [Anime BD Tier 06](#anime-bd-tier-06)  | [Anime Web Tier 06](#anime-web-tier-06) |            |                                       |
+| [Anime BD Tier 07](#anime-bd-tier-07)  | [Anime Raws](#anime-raws)               |            |                                       |
+| [Anime BD Tier 08](#anime-bd-tier-08)  | [Anime LQ Groups](#anime-lq-groups)     |            |                                       |
 
 ---
 
@@ -860,24 +861,24 @@ Special thanks to everyone who has helped in the creation and testing of these C
 
 ---
 
-### Repack v2
+### Repack2
 
 ??? example "JSON - [Click to show/hide]"
 
     ```json
-    [[% filter indent(width=4) %]][[% include 'json/sonarr/cf/repack-v2.json' %]][[% endfilter %]]
+    [[% filter indent(width=4) %]][[% include 'json/sonarr/cf/repack2.json' %]][[% endfilter %]]
     ```
 
 <sub><sup>[TOP](#index)</sup></sub>
 
 ---
 
-### Repack v3
+### Repack3
 
 ??? example "JSON - [Click to show/hide]"
 
     ```json
-    [[% filter indent(width=4) %]][[% include 'json/sonarr/cf/repack-v3.json' %]][[% endfilter %]]
+    [[% filter indent(width=4) %]][[% include 'json/sonarr/cf/repack3.json' %]][[% endfilter %]]
     ```
 
 <sub><sup>[TOP](#index)</sup></sub>
@@ -1562,6 +1563,24 @@ Special thanks to everyone who has helped in the creation and testing of these C
 
     ```json
     [[% filter indent(width=4) %]][[% include 'json/sonarr/cf/pcok.json' %]][[% endfilter %]]
+    ```
+
+<sub><sup>[TOP](#index)</sup></sub>
+
+---
+
+#### PLAY
+
+<sub>Google Play</sub>
+
+??? question "Description - [Click to show/hide]"
+
+    {! include-markdown "../../includes/cf-descriptions/play.md" !}
+
+??? example "JSON - [Click to show/hide]"
+
+    ```json
+    [[% filter indent(width=4) %]][[% include 'json/sonarr/cf/play.json' %]][[% endfilter %]]
     ```
 
 <sub><sup>[TOP](#index)</sup></sub>
@@ -2306,224 +2325,224 @@ Special thanks to everyone who has helped in the creation and testing of these C
 
 ---
 
-### Anime BD Tier 01 (Top SeaDex Muxers)
+### Anime BD Tier 01
 
 ??? question "Description - [Click to show/hide]"
 
-    {! include-markdown "../../includes/cf-descriptions/anime-bd-tier-01-top-seadex-muxers.md" !}
+    {! include-markdown "../../includes/cf-descriptions/anime-bd-tier-01.md" !}
 
 ??? example "JSON - [Click to show/hide]"
 
     ```json
-    [[% filter indent(width=4) %]][[% include 'json/sonarr/cf/anime-bd-tier-01-top-seadex-muxers.json' %]][[% endfilter %]]
+    [[% filter indent(width=4) %]][[% include 'json/sonarr/cf/anime-bd-tier-01.json' %]][[% endfilter %]]
     ```
 
 <sub><sup>[TOP](#index)</sup></sub>
 
 ---
 
-### Anime BD Tier 02 (SeaDex Muxers)
+### Anime BD Tier 02
 
 ??? question "Description - [Click to show/hide]"
 
-    {! include-markdown "../../includes/cf-descriptions/anime-bd-tier-02-seadex-muxers.md" !}
+    {! include-markdown "../../includes/cf-descriptions/anime-bd-tier-02.md" !}
 
 ??? example "JSON - [Click to show/hide]"
 
     ```json
-    [[% filter indent(width=4) %]][[% include 'json/sonarr/cf/anime-bd-tier-02-seadex-muxers.json' %]][[% endfilter %]]
+    [[% filter indent(width=4) %]][[% include 'json/sonarr/cf/anime-bd-tier-02.json' %]][[% endfilter %]]
     ```
 
 <sub><sup>[TOP](#index)</sup></sub>
 
 ---
 
-### Anime BD Tier 03 (SeaDex Muxers)
+### Anime BD Tier 03
 
 ??? question "Description - [Click to show/hide]"
 
-    {! include-markdown "../../includes/cf-descriptions/anime-bd-tier-02-seadex-muxers.md" !}
+    {! include-markdown "../../includes/cf-descriptions/anime-bd-tier-03.md" !}
 
 ??? example "JSON - [Click to show/hide]"
 
     ```json
-    [[% filter indent(width=4) %]][[% include 'json/sonarr/cf/anime-bd-tier-03-seadex-muxers.json' %]][[% endfilter %]]
+    [[% filter indent(width=4) %]][[% include 'json/sonarr/cf/anime-bd-tier-03.json' %]][[% endfilter %]]
     ```
 
 <sub><sup>[TOP](#index)</sup></sub>
 
 ---
 
-### Anime BD Tier 04 (SeaDex Muxers)
+### Anime BD Tier 04
 
 ??? question "Description - [Click to show/hide]"
 
-    {! include-markdown "../../includes/cf-descriptions/anime-bd-tier-04-seadex-muxers.md" !}
+    {! include-markdown "../../includes/cf-descriptions/anime-bd-tier-04.md" !}
 
 ??? example "JSON - [Click to show/hide]"
 
     ```json
-    [[% filter indent(width=4) %]][[% include 'json/sonarr/cf/anime-bd-tier-04-seadex-muxers.json' %]][[% endfilter %]]
+    [[% filter indent(width=4) %]][[% include 'json/sonarr/cf/anime-bd-tier-04.json' %]][[% endfilter %]]
     ```
 
 <sub><sup>[TOP](#index)</sup></sub>
 
 ---
 
-### Anime BD Tier 05 (Remuxes)
+### Anime BD Tier 05
 
 ??? question "Description - [Click to show/hide]"
 
-    {! include-markdown "../../includes/cf-descriptions/anime-bd-tier-05-remuxes.md" !}
+    {! include-markdown "../../includes/cf-descriptions/anime-bd-tier-05.md" !}
 
 ??? example "JSON - [Click to show/hide]"
 
     ```json
-    [[% filter indent(width=4) %]][[% include 'json/sonarr/cf/anime-bd-tier-05-remuxes.json' %]][[% endfilter %]]
+    [[% filter indent(width=4) %]][[% include 'json/sonarr/cf/anime-bd-tier-05.json' %]][[% endfilter %]]
     ```
 
 <sub><sup>[TOP](#index)</sup></sub>
 
 ---
 
-### Anime BD Tier 06 (FanSubs)
+### Anime BD Tier 06
 
 ??? question "Description - [Click to show/hide]"
 
-    {! include-markdown "../../includes/cf-descriptions/anime-bd-tier-06-fansubs.md" !}
+    {! include-markdown "../../includes/cf-descriptions/anime-bd-tier-06.md" !}
 
 ??? example "JSON - [Click to show/hide]"
 
     ```json
-    [[% filter indent(width=4) %]][[% include 'json/sonarr/cf/anime-bd-tier-06-fansubs.json' %]][[% endfilter %]]
+    [[% filter indent(width=4) %]][[% include 'json/sonarr/cf/anime-bd-tier-06.json' %]][[% endfilter %]]
     ```
 
 <sub><sup>[TOP](#index)</sup></sub>
 
 ---
 
-### Anime BD Tier 07 (P2P/Scene)
+### Anime BD Tier 07
 
 ??? question "Description - [Click to show/hide]"
 
-    {! include-markdown "../../includes/cf-descriptions/anime-bd-tier-07-p2pscene.md" !}
+    {! include-markdown "../../includes/cf-descriptions/anime-bd-tier-07.md" !}
 
 ??? example "JSON - [Click to show/hide]"
 
     ```json
-    [[% filter indent(width=4) %]][[% include 'json/sonarr/cf/anime-bd-tier-07-p2pscene.json' %]][[% endfilter %]]
+    [[% filter indent(width=4) %]][[% include 'json/sonarr/cf/anime-bd-tier-07.json' %]][[% endfilter %]]
     ```
 
 <sub><sup>[TOP](#index)</sup></sub>
 
 ---
 
-### Anime BD Tier 08 (Mini Encodes)
+### Anime BD Tier 08
 
 ??? question "Description - [Click to show/hide]"
 
-    {! include-markdown "../../includes/cf-descriptions/anime-bd-tier-08-mini-encodes.md" !}
+    {! include-markdown "../../includes/cf-descriptions/anime-bd-tier-08.md" !}
 
 ??? example "JSON - [Click to show/hide]"
 
     ```json
-    [[% filter indent(width=4) %]][[% include 'json/sonarr/cf/anime-bd-tier-08-mini-encodes.json' %]][[% endfilter %]]
+    [[% filter indent(width=4) %]][[% include 'json/sonarr/cf/anime-bd-tier-08.json' %]][[% endfilter %]]
     ```
 
 <sub><sup>[TOP](#index)</sup></sub>
 
 ---
 
-### Anime Web Tier 01 (Muxers)
+### Anime Web Tier 01
 
 ??? question "Description - [Click to show/hide]"
 
-    {! include-markdown "../../includes/cf-descriptions/anime-web-tier-01-muxers.md" !}
+    {! include-markdown "../../includes/cf-descriptions/anime-web-tier-01.md" !}
 
 ??? example "JSON - [Click to show/hide]"
 
     ```json
-    [[% filter indent(width=4) %]][[% include 'json/sonarr/cf/anime-web-tier-01-muxers.json' %]][[% endfilter %]]
+    [[% filter indent(width=4) %]][[% include 'json/sonarr/cf/anime-web-tier-01.json' %]][[% endfilter %]]
     ```
 
 <sub><sup>[TOP](#index)</sup></sub>
 
 ---
 
-### Anime Web Tier 02 (Top FanSubs)
+### Anime Web Tier 02
 
 ??? question "Description - [Click to show/hide]"
 
-    {! include-markdown "../../includes/cf-descriptions/anime-web-tier-02-top-fansubs.md" !}
+    {! include-markdown "../../includes/cf-descriptions/anime-web-tier-02.md" !}
 
 ??? example "JSON - [Click to show/hide]"
 
     ```json
-    [[% filter indent(width=4) %]][[% include 'json/sonarr/cf/anime-web-tier-02-top-fansubs.json' %]][[% endfilter %]]
+    [[% filter indent(width=4) %]][[% include 'json/sonarr/cf/anime-web-tier-02.json' %]][[% endfilter %]]
     ```
 
 <sub><sup>[TOP](#index)</sup></sub>
 
 ---
 
-### Anime Web Tier 03 (Official Subs)
+### Anime Web Tier 03
 
 ??? question "Description - [Click to show/hide]"
 
-    {! include-markdown "../../includes/cf-descriptions/anime-web-tier-03-official-subs.md" !}
+    {! include-markdown "../../includes/cf-descriptions/anime-web-tier-03.md" !}
 
 ??? example "JSON - [Click to show/hide]"
 
     ```json
-    [[% filter indent(width=4) %]][[% include 'json/sonarr/cf/anime-web-tier-03-official-subs.json' %]][[% endfilter %]]
+    [[% filter indent(width=4) %]][[% include 'json/sonarr/cf/anime-web-tier-03.json' %]][[% endfilter %]]
     ```
 
 <sub><sup>[TOP](#index)</sup></sub>
 
 ---
 
-### Anime Web Tier 04 (Official Subs)
+### Anime Web Tier 04
 
 ??? question "Description - [Click to show/hide]"
 
-    {! include-markdown "../../includes/cf-descriptions/anime-web-tier-04-official-subs.md" !}
+    {! include-markdown "../../includes/cf-descriptions/anime-web-tier-04.md" !}
 
 ??? example "JSON - [Click to show/hide]"
 
     ```json
-    [[% filter indent(width=4) %]][[% include 'json/sonarr/cf/anime-web-tier-04-official-subs.json' %]][[% endfilter %]]
+    [[% filter indent(width=4) %]][[% include 'json/sonarr/cf/anime-web-tier-04.json' %]][[% endfilter %]]
     ```
 
 <sub><sup>[TOP](#index)</sup></sub>
 
 ---
 
-### Anime Web Tier 05 (FanSubs)
+### Anime Web Tier 05
 
 ??? question "Description - [Click to show/hide]"
 
-    {! include-markdown "../../includes/cf-descriptions/anime-web-tier-05-fansubs.md" !}
+    {! include-markdown "../../includes/cf-descriptions/anime-web-tier-05.md" !}
 
 ??? example "JSON - [Click to show/hide]"
 
     ```json
-    [[% filter indent(width=4) %]][[% include 'json/sonarr/cf/anime-web-tier-05-fansubs.json' %]][[% endfilter %]]
+    [[% filter indent(width=4) %]][[% include 'json/sonarr/cf/anime-web-tier-05.json' %]][[% endfilter %]]
     ```
 
 <sub><sup>[TOP](#index)</sup></sub>
 
 ---
 
-### Anime Web Tier 06 (FanSubs)
+### Anime Web Tier 06
 
 ??? question "Description - [Click to show/hide]"
 
-    {! include-markdown "../../includes/cf-descriptions/anime-web-tier-06-fansubs.md" !}
+    {! include-markdown "../../includes/cf-descriptions/anime-web-tier-06.md" !}
 
 ??? example "JSON - [Click to show/hide]"
 
     ```json
-    [[% filter indent(width=4) %]][[% include 'json/sonarr/cf/anime-web-tier-06-fansubs.json' %]][[% endfilter %]]
+    [[% filter indent(width=4) %]][[% include 'json/sonarr/cf/anime-web-tier-06.json' %]][[% endfilter %]]
     ```
 
 <sub><sup>[TOP](#index)</sup></sub>

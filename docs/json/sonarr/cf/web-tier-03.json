@@ -2,12 +2,38 @@
   "trash_id": "d84935abd3f8556dcd51d4f27e22d0a6",
   "trash_scores": {
     "default": 1600,
-    "anime-sonarr": 150,
     "french-multi-vf": 0
   },
   "name": "WEB Tier 03",
   "includeCustomFormatWhenRenaming": false,
   "specifications": [
+    {
+      "name": "WEBDL",
+      "implementation": "SourceSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": 3
+      }
+    },
+    {
+      "name": "WEBRIP",
+      "implementation": "SourceSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": 4
+      }
+    },
+    {
+      "name": "Dooky",
+      "implementation": "ReleaseGroupSpecification",
+      "negate": false,
+      "required": false,
+      "fields": {
+        "value": "^(Dooky)$"
+      }
+    },
     {
       "name": "DRACULA",
       "implementation": "ReleaseGroupSpecification",
@@ -18,12 +44,12 @@
       }
     },
     {
-      "name": "Dooky",
+      "name": "HHWEB",
       "implementation": "ReleaseGroupSpecification",
       "negate": false,
       "required": false,
       "fields": {
-        "value": "^(Dooky)$"
+        "value": "^(HHWEB)$"
       }
     },
     {
@@ -69,24 +95,6 @@
       "required": false,
       "fields": {
         "value": "^(ViSiON)$"
-      }
-    },
-    {
-      "name": "WEBDL",
-      "implementation": "SourceSpecification",
-      "negate": false,
-      "required": false,
-      "fields": {
-        "value": 3
-      }
-    },
-    {
-      "name": "WEBRIP",
-      "implementation": "SourceSpecification",
-      "negate": false,
-      "required": false,
-      "fields": {
-        "value": 4
       }
     }
   ]
